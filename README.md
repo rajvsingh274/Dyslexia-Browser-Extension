@@ -21,7 +21,8 @@ AI-based browser extension that simplifies complex web text using NLP and LLMs.
 4. Load extension in Chrome
 
 ## Screenshots
-(Add images here)
+<img width="399" height="600" alt="popup" src="https://github.com/user-attachments/assets/be1fa8af-8cfc-4711-b2a6-5c3b1caef26d" />
+
 
 ## Future Improvements
 - Voice support
