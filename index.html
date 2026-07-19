@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Text Simplifier</title>
+</head>
+<body>
+
+  <h2>Text Simplifier</h2>
+
+  <textarea id="inputText" rows="4" cols="60"></textarea>
+
+<h3>Choose What Matters Most</h3>
+
+<label><b>Prefer shorter sentences</b></label>
+<input type="range" id="asl" min="0" max="100" value="40">
+<p style="font-size:12px;">Higher value favors outputs with shorter sentences.</p>
+
+<label><b>Prefer simpler words</b></label>
+<input type="range" id="asw" min="0" max="100" value="40">
+<p style="font-size:12px;">Higher value favors shorter, easier vocabulary.</p>
+
+<label><b>Reduce difficult words</b></label>
+<input type="range" id="pdw" min="0" max="100" value="20">
+<p style="font-size:12px;">Higher value penalizes long, complex words.</p>
+
+
+
+  <br><br>
+
+  <button id="simplifyBtn">Simplify</button>
+
+  <pre id="result"></pre>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
